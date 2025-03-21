@@ -3,114 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oakmount Truck Dispatch Services</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #ff6600;
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .container {
-            width: 90%;
-            margin: auto;
-            padding: 20px;
-        }
-        .service-section {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        }
-        .service-section h2 {
-            color: #ff6600;
-        }
-        form {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        button {
-            background: #ff6600;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #333;
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Oakmount Dispatch - Truck Dispatch Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
 </head>
-<body>
-    <header>
-        <h1>USA Truck Dispatch Services</h1>
-        <p>Your Reliable Truck Dispatch Partner Nationwide</p>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Oakmount Dispatch</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:underline">Home</a></li>
+                    <li><a href="#services" class="hover:underline">Services</a></li>
+                    <li><a href="#pricing" class="hover:underline">Pricing</a></li>
+                    <li><a href="#about" class="hover:underline">About Us</a></li>
+                    <li><a href="#testimonials" class="hover:underline">Testimonials</a></li>
+                    <li><a href="#faq" class="hover:underline">FAQ</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="container">
-        <section class="service-section">
-            <h2>Our Services</h2>
-            <p>We provide top-notch truck dispatch services across the USA, ensuring seamless load management and timely deliveries.</p>
-        </section>
-        <section class="service-section">
-            <h2>Why Choose Us?</h2>
-            <ul>
-                <li>24/7 Dispatch Support</li>
-                <li>Competitive Rates</li>
-                <li>Experienced Team</li>
-                <li>Efficient Load Management</li>
-            </ul>
-        </section>
-        <section class="service-section">
-            <h2>Latest Industry News</h2>
-            <p><strong>How AI is Transforming Truck Dispatching in 2025</strong></p>
-            <p>With the latest advancements in artificial intelligence and automation, truck dispatching has become more efficient than ever. AI-powered logistics solutions are helping companies reduce costs, optimize routes, and enhance driver safety. As the industry embraces digital transformation, dispatchers can now make data-driven decisions to ensure timely deliveries and minimize downtime.</p>
-            <p>Stay updated with our blog for more insights on the evolving trucking landscape.</p>
-        </section>
-        <section class="service-section">
-            <h2>Contact Us</h2>
-            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
-            <p><strong>Email:</strong> contact@oakmountdispatch.com</p>
-            <p><strong>Address:</strong> 123 Dispatch Lane, New York, NY, USA</p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2025 Oakmount Truck Dispatch Services. All rights reserved.</p>
+    
+    <section id="home" class="text-center py-20 bg-blue-500 text-white relative">
+        <img src="https://source.unsplash.com/1600x900/?truck,logistics" class="absolute top-0 left-0 w-full h-full object-cover opacity-30" alt="Truck Dispatch">
+        <div class="relative">
+            <h2 class="text-5xl font-bold">Efficient & Reliable Truck Dispatch Services</h2>
+            <p class="mt-4 text-lg">Helping truckers maximize profits with seamless dispatch solutions.</p>
+            <button class="mt-6 px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-md hover:bg-gray-200" onclick="location.href='#contact'">Get Started</button>
+        </div>
+    </section>
+    
+    <section id="about" class="container mx-auto py-20 text-center">
+        <h2 class="text-4xl font-bold">About Oakmount Dispatch</h2>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">At Oakmount Dispatch, we specialize in connecting truckers with high-paying loads, optimizing routes, and offering 24/7 support to keep your business running smoothly.</p>
+        <div class="mt-6">
+            <img src="https://source.unsplash.com/800x400/?trucking,teamwork" class="mx-auto rounded-lg shadow-md" alt="About Us">
+        </div>
+    </section>
+    
+    <section id="contact" class="bg-gray-200 py-20 text-center">
+        <h2 class="text-4xl font-bold">Get in Touch</h2>
+        <p class="mt-4 text-lg">Need dispatch services? Contact us today.</p>
+        <form class="mt-6 max-w-lg mx-auto">
+            <input type="text" placeholder="Your Name" class="p-2 w-full mb-4 rounded-lg">
+            <input type="email" placeholder="Your Email" class="p-2 w-full mb-4 rounded-lg">
+            <textarea placeholder="Your Message" class="p-2 w-full mb-4 rounded-lg" rows="4"></textarea>
+            <button class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700">Send Message</button>
+        </form>
+    </section>
+    
+    <footer class="bg-blue-600 text-white text-center p-4 mt-10">
+        <p>&copy; 2025 Oakmount Dispatch. All rights reserved.</p>
     </footer>
 </body>
 </html>
