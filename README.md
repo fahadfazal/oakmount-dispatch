@@ -16,21 +16,6 @@ Oakmount Dispatch is a professional truck dispatch service dedicated to helping 
 - **Styling**: Bootstrap/Tailwind CSS for responsive design
 - **Backend (if applicable)**: Node.js, Express (for dynamic features)
 
-## Installation
-To run this project locally:
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/oakmount-dispatch.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd oakmount-dispatch
-   ```
-3. Open the `index.html` file in your browser.
-
-## Deployment
-- The website can be deployed using **GitHub Pages, Netlify, Vercel, or any static hosting provider**.
-
 ## Contact
 For inquiries and business collaboration, reach us at:
 - **Email**: contact@oakmountdispatch.com
